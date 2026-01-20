@@ -2,8 +2,10 @@
   "framework": null,
   "outputDirectory": "bin/Release/net8.0/publish/wwwroot",
   "cleanUrls": true,
-  "routes": [
-    { "handle": "filesystem" },
-    { "src": "/.*", "dest": "/index.html" }
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
   ]
 }
