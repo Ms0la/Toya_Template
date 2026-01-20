@@ -486,3 +486,4 @@ bin/
 obj/
 wwwroot/appsettings.Production.json
 
+dist/wwwroot/*
